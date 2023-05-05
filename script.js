@@ -9,7 +9,7 @@ function onReady(){
     $('#blue-btn').on('click', appendBlue)
     $('#green-btn').on('click', appendGreen)
     $('#yellow-btn').on('click', appendYellow)
-    // $('#blocks').on('click', '.block', removeBlock)
+    $('#blocks').on('click', '.block', removeBlock)
     
 }
 
@@ -44,8 +44,8 @@ $('#yellow-count').empty()
 yellow++;
 $('#yellow-count').append(yellow)
 }
-// function removeBlock(){
-//     $(this).remove()
+function removeBlock(){
+    $(this).remove()
 
 
-// }
+}
